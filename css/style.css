@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color:#0b073e !important; 
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    background-color: #c4dafa;
+    border-radius: 10px; 
+}
+
+.cartelera2 {
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boton-agregar{
+    margin-left: 25px;
+}
+    
+
+.navbar {
+    background-color: #050505; 
+    padding: 5px;
+    
+}
+
+.cartelera-nombre{
+    display: flex;
+    
+    padding-left: 75px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:#f1f1f1;
+}
+
+.container-fluid{
+    padding-right: 75px;
+}
+
+.navbar-brand img {
+    max-height: 100px;
+
+}
+
+.lema{
+    color: white;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.carousel slide{
+    max-height: 10px;
+}
+
+
+
+/*  Estilos para la card *//* Estilos para las tarjetas personalizadas */
+.card-custom {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 300px; 
+    width: 100%; 
+    flex-direction: column; 
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.card-custom-img {
+    width: 100px; 
+    height: 150px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.card-custom-body {
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: regular;
+    font-style: normal;
+}
+
+.card-custom-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #0b073e;
+    text-align: center; 
+}
+
+.card-custom-type,
+.card-custom-year,
+.card-custom-ubication {
+    margin: 5px 0px;
+    text-align: left; 
+}
+
+#movies-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-size: 14px;
+  
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
